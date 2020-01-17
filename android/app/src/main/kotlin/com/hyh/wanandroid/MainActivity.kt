@@ -1,4 +1,4 @@
-package com.hyh.flutter_wanandroid
+package com.hyh.wanandroid
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

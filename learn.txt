@@ -1,0 +1,7 @@
+1.图片加载assets目录下文件：https://blog.csdn.net/wushengnuan/article/details/100807626
+
+2.flutter沉浸式：https://www.jianshu.com/p/97e93c82ccef
+
+3.flutter修改状态栏字体颜色：https://www.jianshu.com/p/15700d9145aa
+
+4.flutter底部导航：https://www.jianshu.com/p/3bf61b805d11
