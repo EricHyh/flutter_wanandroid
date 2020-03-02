@@ -1,11 +1,22 @@
 import 'package:flutter/material.dart';
 
-class HomePage extends StatelessWidget {
+import 'test.dart';
+
+class HomePage extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return new HomePageState();
+  }
+}
+
+class HomePageState extends State<HomePage> with AutomaticKeepAliveClientMixin {
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    return new Center(
-      child: new Text("首页"),
-    );
+    super.build(context);
+    return new ActPage();
   }
+
+  @override
+  bool get wantKeepAlive => true;
 }

@@ -14,10 +14,9 @@ class Splash extends StatelessWidget {
     return new Scaffold(
       backgroundColor: Colors.white,
       body: new Align(
-        alignment: Alignment.topCenter,
+        alignment: Alignment.center,
         child: new Image.asset(
           'assets/images/splash_bg.png',
-          fit: BoxFit.fill,
         ),
       ),
     );
@@ -30,7 +29,7 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    new Future.delayed(
+    /*new Future.delayed(
       const Duration(seconds: 2),
       () => {
         Navigator.of(context).pushReplacement(
@@ -41,12 +40,12 @@ class MyApp extends StatelessWidget {
           ),
         ),
       },
-    );
+    );*/
     return AnnotatedRegion(
       value: new SystemUiOverlayStyle(statusBarIconBrightness: Brightness.dark),
       child: MaterialApp(
         theme: ThemeData(backgroundColor: Colors.white),
-        home: Splash(),
+        home: MainPage(),
       ),
     );
   }

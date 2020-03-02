@@ -5,3 +5,10 @@
 3.flutter修改状态栏字体颜色：https://www.jianshu.com/p/15700d9145aa
 
 4.flutter底部导航：https://www.jianshu.com/p/3bf61b805d11
+
+5.Flutter 升级 1.12 适配教程（内含启动黑屏处理）：https://juejin.im/post/5e034f3af265da33c24ffe45
+
+6.关于flutter NestedScrollView导致其body的tabbarview的多个list同步滚动的解决方案：
+https://www.jianshu.com/p/ab473fb8ceb0
+
+7.dart基础语法：https://www.flutterdart.cn/t/topic/177
